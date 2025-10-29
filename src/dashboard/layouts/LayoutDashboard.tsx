@@ -13,8 +13,10 @@ export const LayoutDashboard = () => {
                         Logo
                     </div>
                 </header>
-                <main className="flex-1 bg-muted p-5 overflow-y-auto">
-                    <Outlet />
+                <main className="flex-1 bg-muted p-5 overflow-y-auto flex BG-R">
+                    <div className="bg-white rounded-lg shadow-sm flex-1">
+                        <Outlet />
+                    </div>
                 </main>
             </div>
         </SidebarProvider>
